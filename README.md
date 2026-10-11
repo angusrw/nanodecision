@@ -1,3 +1,13 @@
+# nanodecision
+
+A fork of [nanochat](https://github.com/karpathy/nanochat), extended with a decision feature: read a text once, then answer many questions about it with probabilities, without generating text. Tested at each training stage (base, chat, chat + trained head).
+
+Status: in progress. Forked and frozen at `92d63d4e8bb4df75c3b71618f31ddde2378b2bcd` (tag `nanochat-base`); `git diff nanochat-base` shows every change.
+
+The original nanochat README follows.
+
+---
+
 # nanochat
 
 ![nanochat logo](dev/nanochat.png)
